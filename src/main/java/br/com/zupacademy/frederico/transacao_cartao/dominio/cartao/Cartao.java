@@ -24,4 +24,11 @@ public class Cartao {
         this.email = email;
     }
 
+    public UUID getId() {
+        return id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }

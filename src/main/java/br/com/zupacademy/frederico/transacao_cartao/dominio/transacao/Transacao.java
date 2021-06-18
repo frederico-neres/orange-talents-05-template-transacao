@@ -43,4 +43,23 @@ public class Transacao {
         this.efetivadaEm = efetivadaEm;
     }
 
+    public UUID getId() {
+        return id;
+    }
+
+    public BigDecimal getValor() {
+        return valor;
+    }
+
+    public Estabelecimento getEstabelecimento() {
+        return estabelecimento;
+    }
+
+    public Cartao getCartao() {
+        return cartao;
+    }
+
+    public LocalDateTime getEfetivadaEm() {
+        return efetivadaEm;
+    }
 }
